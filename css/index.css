@@ -1,0 +1,262 @@
+.ctn-center{
+	text-align: center;
+}
+
+/*三个灰色背景*/
+.bg{
+	background: #e4e4e4;
+}
+
+/*轮播图*/
+.carousel-caption h1:before,.carousel-caption h1:after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 50%;
+	background: white;
+	position: relative;
+	left:25%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.carousel-caption{
+	top: 25%;
+}
+.carousel-caption .btn{
+	margin-top: 5%;
+	text-align: center;
+	padding: 0;
+	width: 15%;
+	border: 2px solid #fff;
+	font-size: 24px;
+	margin: 5% auto;
+	cursor: pointer;
+}
+/*轮播图结束*/
+
+/* 导航条 */
+.navbar{
+	margin-bottom:0;
+}
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-right span{
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	display: inline-block;
+	background: #000;
+
+}
+/* 导航条结束 */
+
+/* log */
+#log{
+	padding-top: 4px;
+}
+#log-text{
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 15px;
+	color: #fff;
+}
+#text-color{
+	color:#30cb70;
+}
+/* log结束 */
+
+
+
+
+
+.container{
+	margin: 3% auto;
+}
+
+.ctn1 h3{
+	margin-top: 0;
+}
+
+
+
+/* 自我介绍 */
+
+	/* swiper滚动，和bootstrapm媒体*/
+.introduce{
+	margin-top: 3%;
+	margin-right: 0;
+}
+.introduce div:first-child{
+	padding:0;
+}
+.introduce .media{
+	margin-top: 0;
+}
+.introduce h2{
+	margin-top: 10%;
+	margin-left: 10px;
+}
+.introduce p{
+	margin-left: 10px;
+}
+
+.media span{
+	font-size: 40px;
+}
+.media h3{
+	margin-top: 0;
+}
+	/* swiper滚动，和bootstrapm媒体结束*/
+
+
+/*能力介绍*/
+.ctn2{
+	margin: 5% auto;
+}
+.ctn2 img{
+	display:inline;
+}
+.progress{
+	border-radius: 0;
+	box-shadow: none;
+}
+.ctn2 .btn{
+	color: #4cca4c;
+	border: 1px solid #4cca4c;
+	margin-top: 5%;
+	
+}
+/*能力介绍结束*/
+
+
+.ctn3 {
+	padding:1% 0;
+} 
+.ctn3 .container{
+	margin:1% auto;
+}
+.ctn3 .btn{
+	color: #4cca4c;
+	border: 1px solid #4cca4c;
+	width: 20%;
+	margin-top: 5%;
+}	
+.cnt3 h3{
+	margin-bottom: 20px;
+}
+
+/* 倒三角 */
+.triangle{
+	width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid #e4e4e4;
+	display: block;
+	margin: 0 auto;
+
+}
+/* 倒三角结束 */
+
+
+
+.ctn4{
+	margin-top: 0;
+}
+.ctn4 .hr{
+	height: 2px;
+	width: 100%;
+	display: block;
+	background: #ccc;
+	margin: 4% 0;
+}
+
+/*text2*/ 
+.text2{
+	padding: 2%;
+}
+.text2 .swiper-pagination{
+	position: relative;
+	bottom: 20%;
+}
+/* text2结束 */
+
+
+.ctn5>.row div{
+	margin-top: 1%;
+}
+.ctn5 div{
+	text-align: center;
+}
+.ctn5 .img-responsive{
+	display: inline;
+}
+
+
+.black-bg {
+	background: #252D30;
+	color: #fff;
+}
+
+/* 表单 */
+.ctn6 {
+	padding-top: 3%;
+}
+.ctn6 {
+	margin-bottom: 0px;
+}
+.ctn6 textarea{
+	width: 100%;
+	background: #4b5456;
+}
+.ctn6 input{
+	background: #4b5456;
+}
+.ctn6 button{
+	background: #191f21;
+}
+.isfo{
+	margin-top: 15%;
+}
+.isfo span{
+	font-size:8px;
+	color: #ccc;
+}
+.form-group .btn:hover{
+	color: #ccc;
+}
+/* 表单结束 */
+
+/* 页尾 */
+footer{
+	width: 100%;
+	height: 100%;
+	background:#191f21;
+	padding: 1%;
+}
+footer .nav-tabs{
+	border: 0;
+	display: inline-block;
+
+}
+footer .img{
+	width: 19px;
+	height: 19px;
+	margin:5px auto;
+}
+
+footer li{
+	width: 34px;
+	height: 34px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: #ccc;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+
+

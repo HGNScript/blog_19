@@ -1,0 +1,117 @@
+@media (max-width:1024px){
+	.mi-title h2 p{
+		margin-left: 5px;
+		margin-left: 5px;
+		margin-top: 5%;
+
+	}
+	.media span{
+		font-size: 25px;
+	}
+}
+@media (max-width: 768px){
+	.carousel-caption h1,.carousel-caption div{
+		font-size: 14px;
+	}
+	.mi-title h2{
+			margin-top:3%; 
+		}
+
+}
+@media (max-width: 414px){
+	.carousel-caption h1,.carousel-caption div{
+		font-size: 14px;
+	}
+	.carousel-caption .btn{
+		font-size: 12px;
+		border: 1px solid #fff;
+		margin-top: 1%;
+	}
+	.carousel-caption h1:before,.carousel-caption h1:after{
+		height: 1px;
+		
+	}
+}
+@media(max-width: 320px){
+	.carousel-caption{
+		top: 15%;
+	}
+	.carousel-indicators li{
+		width: 8px;
+		height: 8px;
+	}
+	.carousel-indicators li{
+		width: 10px;
+		height: 10px;
+	}
+}
+
+
+
+
+
+
+
+@media (min-width:768px){
+		.navbar{
+			border-radius: 0;
+		}
+		#log{
+	
+			padding-left: 20px;
+		}
+		body{
+			font-size: 12px;
+		}
+		.navbar-right{
+			margin-right: 0;
+		}
+		.mi-title h2{
+			margin-left:5px; 
+		}
+		
+		/* 只能用以chrome浏览器
+		.text-hde{
+			-webkit-line-clamp: 2;限制在一个块元素显示的文本的行数
+			display: -webkit-box;必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
+			-webkit-box-orient:vertical;	必须结合的属性,从上向下垂直排列子元素。
+			overflow: hidden;
+		}  */
+		
+	}
+@media (min-width: 1024px) {
+    	.navbar-brand{
+    	    margin-left: 70px;	
+    	} 
+    	
+    	
+		body{
+			font-size: 14px;
+		}
+		.navbar-right{
+			margin-right: 15px;
+		}
+		#log-text{
+			margin-left: 10px;
+		}
+		/* 只能用以chrome浏览器
+		
+		.text-hde{
+			-webkit-line-clamp: 5;限制在一个块元素显示的文本的行数
+			display: -webkit-box;必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
+			-webkit-box-orient: vertical;	必须结合的属性,从上向下垂直排列子元素。
+			overflow: hidden;
+		} */
+
+	}
+@media (min-width: 1170px){
+	.media{
+		margin-top: 50px;
+	}
+	.mi-title .media{
+			margin-top: 8%;
+	}
+}
+
+
+
